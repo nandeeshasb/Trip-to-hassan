@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.logo {
+	background-image: url("../img/logo.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: transparent;
+	margin-left: 30px;
+	margin-top: 15px;
+	padding: 10px;
+	width: 50px;
+}
+.menu {
+	float: right;
+	padding-right: 30px;
+	margin-top: -60px;
+	font-size: 30px;
+}
+#main-head {
+	display: none;
+	position: absolute;
+	background-color: #b3b3ff;
+	font-size: 25px;
+	line-height: 1.9em;
+	padding-left: 20px;
+	z-index: 1;
+}
+#main-head li{
+	list-style-type: none;
+}
+#content-banner {
+	background-image: url("../img/hero_1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 214px;
+	
+
+}
