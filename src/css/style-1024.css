@@ -3,13 +3,19 @@
 	.menu {
 		display: none;
 	}
+	.logo {
+		margin-left: 120px;
+		width:90px;
+	}
 	#main-head {
-		display: flex;
+		position: relative;
+		display: inline-flex;
 		flex-direction: row;
-		justify-content: flex-end;
+		background-color: transparent;
+		margin-right: 100px;
 		float: right;
-		margin-top: -85px;
-		background-color: #fff;
+		margin-top: -75px;
+
 	}
 	#main-head li {
 		padding-right: 20px;
@@ -17,6 +23,7 @@
 	}
 	#main-head a {
 		text-decoration: none;
+
 	}
 	#main-head a:hover {
 		background-color: #4d4dff;
@@ -24,6 +31,16 @@
 		border-radius: 2px;
 	}
 	#content-banner {
-		height: 1100px;
+		height: 700px;
+	}
+	.content-head {
+		width: 350px;
+		margin: auto;
+		padding-top: 200px;
 	}
 }
+@media screen and (min-device-width: 1025px){
+	#content-banner {
+		height: 900px;
+	}
+} 

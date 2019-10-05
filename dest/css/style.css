@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	font-family: sans-serif;
+	font-size: 22px;
 }
 .logo {
 	background-image: url("../img/logo.png");
@@ -16,7 +17,7 @@
 .menu {
 	float: right;
 	padding-right: 30px;
-	margin-top: -60px;
+	margin-top: -90px;
 	font-size: 30px;
 }
 #main-head {
@@ -35,7 +36,31 @@
 	background-image: url("../img/hero_1.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
-	height: 214px;
-	
+	height: 500px;
+}
+.content-head {
 
+	width: 300px;
+	margin: auto;
+	font-weight: bolder;
+}
+.story {
+	color: grey;
+	font-weight: 900;
+	font-size: 100px;
+	margin: auto;
+}
+#story-img img{
+	width: 300px;
+}
+.Journey {
+	color: grey;
+	font-weight: 900;
+	font-size: 100px;
+	margin: auto;
+	text-align: center;
+}
+.img-trip img {
+	width: 500px;
+	height: 700px;
 }
