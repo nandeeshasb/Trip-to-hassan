@@ -61,6 +61,22 @@
 	text-align: center;
 }
 .img-trip img {
-	width: 500px;
-	height: 700px;
+	
+	height: 500px;
+	flex: 1;
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+.img-trip img:hover {
+	
+}
+.img-trip h4 {
+	margin-top: 400px;
+	text-align: center;
+	font-weight: bolder;
+}
+.journey-img {
+	margin-left: 15px;
+	display: flex;
+	justify-content: space-between;
 }

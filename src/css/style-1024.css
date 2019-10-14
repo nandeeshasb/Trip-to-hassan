@@ -38,6 +38,9 @@
 		margin: auto;
 		padding-top: 200px;
 	}
+	.img-trip img {
+		width: 360px;
+	}
 }
 @media screen and (min-device-width: 1025px){
 	#content-banner {
