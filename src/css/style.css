@@ -1,82 +1,82 @@
-*{
-	padding: 0;
-	margin: 0;
-	font-family: sans-serif;
-	font-size: 22px;
-}
-.logo {
-	background-image: url("../img/logo.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	color: transparent;
-	margin-left: 30px;
-	margin-top: 15px;
-	padding: 10px;
-	width: 50px;
-}
-.menu {
-	float: right;
-	padding-right: 30px;
-	margin-top: -90px;
-	font-size: 30px;
-}
-#main-head {
-	display: none;
-	position: absolute;
-	background-color: #b3b3ff;
-	font-size: 25px;
-	line-height: 1.9em;
-	padding-left: 20px;
-	z-index: 1;
-}
-#main-head li{
+ul,li {
 	list-style-type: none;
 }
-#content-banner {
-	background-image: url("../img/hero_1.jpg");
-	background-size: 100%;
+.techlogo {
+	background-image: url("../img/logo.png");
 	background-repeat: no-repeat;
-	height: 500px;
+	background-size: 100%;
+	color: transparent;
+	width: 80px;
+	margin: 10px 0 0 50px;
 }
-.content-head {
+.main-ul {
+	padding-left: 50px;
+	font-size: 20px;
+	line-height: 2.0em;
+	background-color: #808080;
+	z-index: 1;
+}
+.main-ul a:active {
+	color: #ffbc4f;
+}
+.menu-bar {
+	float: right;
+	margin-top: -75px;
+	padding-right: 50px;
+}
+.main-ul a{
+	text-decoration: none;
+}
+#banner-img {
+	background-position: left top;
+	background-image: url("../img/hero_1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 250px;
+}
+.head-banner {
+	margin: 0 auto;
+	font-weight: bold;
+}
+.head-banner span {
+	font-size: 40px;
+	display: none;
+}
+#our-story {
+	margin-top: 40px;
+	height: 400px;
+}
+.travel-img {
+	height: 400px;
+	width: 250px;
+	margin-bottom: 20px;
+}
+.head-color {
+	color: #fca726;
+	font-weight: bold;
+}
+#our-journey {
+	padding-top: 310px;
+}
+.card-title1 {
+	margin-top: 18rem;
+	width: 100px;
+	height: 28px;
+	background-color: #ffbc4f;
+	border-radius: 50px;
+	display: inline-block;
+	text-align: center;
+}
+.card-text1 {
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+.back-color {
+	border-radius: 50px;
+	height: 40px;
+	width: 40px;
+	background-color: #ffd79c;
+	padding-top: 12px;
 
-	width: 300px;
-	margin: auto;
-	font-weight: bolder;
-}
-.story {
-	color: grey;
-	font-weight: 900;
-	font-size: 100px;
-	margin: auto;
-}
-#story-img img{
-	width: 300px;
-}
-.Journey {
-	color: grey;
-	font-weight: 900;
-	font-size: 100px;
-	margin: auto;
-	text-align: center;
-}
-.img-trip img {
-	
-	height: 500px;
-	flex: 1;
-	box-sizing: border-box;
-	justify-content: space-between;
-}
-.img-trip img:hover {
-	
-}
-.img-trip h4 {
-	margin-top: 400px;
-	text-align: center;
-	font-weight: bolder;
-}
-.journey-img {
-	margin-left: 15px;
-	display: flex;
-	justify-content: space-between;
 }

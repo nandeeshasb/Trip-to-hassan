@@ -1,7 +1,5 @@
 $(document).ready(function(){
-	$(".menu").click(function(){
-		$("#main-head").toggle();
+	$('.menu-bar').click(function(){
+		$('.main-ul').toggle();
 	});
-
-
 });
