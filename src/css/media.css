@@ -27,5 +27,16 @@
 	.head-banner span {
 		display: inline-block;
 	}
-	
+	.carousel-item {
+		background-color: #ffbc4f;
+		height: 300px;
+		text-align: center;
+		padding-top: 50px;
+	}
+	.carousel-item p {
+		margin: 24px 130px;
+	}
+	.comment-name {
+		margin-right: 130px;
+	}
 }

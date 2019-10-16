@@ -13,7 +13,7 @@ ul,li {
 	padding-left: 50px;
 	font-size: 20px;
 	line-height: 2.0em;
-	background-color: #808080;
+	background-color: #ffbc4f;
 	z-index: 1;
 }
 .main-ul a:active {
@@ -79,4 +79,42 @@ ul,li {
 	background-color: #ffd79c;
 	padding-top: 12px;
 
+}
+.carousel-item {
+	background-color: #ffbc4f;
+	height: 300px;
+	text-align: center;
+	padding-top: 50px;
+}
+.carousel-item p {
+	margin: 0px 30px;
+}
+.img-photo {
+	border-radius: 50px;
+	height: 40px;
+	width: 40px;
+	margin-right: 20px;
+}
+.comment-name {
+	margin-right: 60px;
+}
+.btn-join {
+	background-color: #ffbc4f;
+}
+.img-card-photo {
+	height: 90px;
+	width: 80px;
+}
+.foot-middle {
+	text-align: left;
+	line-height: 2.5em;
+}
+.card-blog img {
+	height: 500px;
+}
+#contact-trip {
+	background-color: #e6e8eb;
+}
+#join-trip {
+	background-color: #809bc4;
 }
