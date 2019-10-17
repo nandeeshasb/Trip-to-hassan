@@ -1,7 +1,14 @@
 @media screen and (min-device-width: 768px) {
 	#our-journey {
-	padding-top: 10px;
-}
+		padding-top: 10px;
+	}
+	.about-banner {
+		text-align: center;
+		padding:50px 40px;
+	}
+	.mission-photo{
+		margin-top: 0;
+	}
 }
 @media screen and (min-device-width: 769px) {
 	.menu-bar {
@@ -38,5 +45,14 @@
 	}
 	.comment-name {
 		margin-right: 130px;
+	}
+	.about-banner {
+		text-align: center;
+		padding:100px 100px;
+	}
+	.mission-photo {
+		height: 400px;
+		width: 400px;
+
 	}
 }

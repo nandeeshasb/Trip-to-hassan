@@ -118,3 +118,13 @@ ul,li {
 #join-trip {
 	background-color: #809bc4;
 }
+/*------------------About us start ---------------*/
+.about-banner {
+	text-align: center;
+}
+.mission-photo {
+	height: 400px;
+	width: 290px;
+	margin-top: 294px;
+}
+/*------------------About us start ---------------*/
